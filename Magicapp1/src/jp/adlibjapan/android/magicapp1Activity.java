@@ -29,7 +29,7 @@ public class magicapp1Activity extends Activity implements SensorEventListener {
 		// メニューバーを非表示にする
 		window.addFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-		// タイトルバーを非表示に
+		// タイトルバーを非表示
 		window.requestFeature(Window.FEATURE_NO_TITLE);
 
 		setContentView(R.layout.main);
